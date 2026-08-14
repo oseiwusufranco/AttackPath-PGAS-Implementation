@@ -1,0 +1,31 @@
+# AttackPath-PGAS reproducibility environment
+# Recommended: Python 3.11
+# Bounded ranges preserve compatibility without falsely asserting one universal historical wheel set.
+
+numpy>=1.26,<3
+pandas>=2.1,<3
+scipy>=1.11,<2
+scikit-learn>=1.4,<2
+networkx>=3.2,<4
+joblib>=1.3,<2
+tqdm>=4.66,<5
+psutil>=5.9,<8
+PyYAML>=6.0,<7
+packaging>=23.2,<27
+
+# Bayesian diagnostics
+arviz>=0.17,<1
+xarray>=2024.1,<2027
+
+# Optional boosted learner used in the documented implementation
+xgboost>=2.0,<4
+
+# Artifact export
+pyarrow>=15,<25
+
+# Notebook runtime / plots
+matplotlib>=3.8,<4
+jupyterlab>=4,<5
+notebook>=7,<8
+ipykernel>=6.28,<8
+nbformat>=5.9,<6
